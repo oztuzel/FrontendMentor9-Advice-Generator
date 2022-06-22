@@ -1,0 +1,81 @@
+.container {
+  background-color: hsl(217, 19%, 24%);
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 320px;
+  position: relative;
+  top:16em;
+  left: 34%;
+  border-radius: 20px;
+}
+
+.title {
+  color: hsl(150, 100%, 66%);
+  font-family: 'Manrope', sans-serif;
+  position: relative;
+  top: 40px;
+  left: 38%;
+  letter-spacing: 4px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.parag{
+  position: relative;
+  top: 40px;
+  margin-left: 50px;
+  width: 80%;
+  height: 150px;
+  color: hsl(193, 38%, 86%);
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+.dividerImg {
+  position: relative;
+  top: 25px;
+  width: 80%;
+  left: 10%;
+}
+
+.diceDiv {
+  position: relative;
+  top: 60px;
+  left: 45.5%;
+  background-color: hsl(150, 100%, 66%);
+  width: 50px;
+  height: 50px;
+  border-radius: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.diceImg {
+  width: 20px;
+  margin-top: 15px;
+}
+
+.diceImg:hover {
+  box-shadow: 0px 0px 50px 15px hsl(150, 100%, 66%);
+}
+
+@media (max-width:400px) {
+
+  .container {
+    width: 375px;
+    top: 13em;
+    left:3%;
+  }
+
+
+
+  .diceDiv {
+    top: 70px;
+    left: 43.5%;
+  }
+
+}
